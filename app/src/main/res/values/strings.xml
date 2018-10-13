@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Victor\'s recipes</string>
+    <string name="name">Victor\'s recipes</string>
+    <string name="recipe">Ingredients:</string>
+    <string name="recipeone"><b>Ingredients</b><![CDATA[\n\n1.3 cups all-purpose flour\n2.Two sticks unsalted butter\n3.1 tablespoon baking powder.\n4.&#189; teaspoon salt.\n5.1 &#188; cups sugar.\n6.4 large eggs, at room temperature.\n7.1 tablespoon vanilla extract.\n\n]]><b>HOW TO PREPAPE:</b>\n\n1.Preheat the oven at 185 °F (85 °C).\n\n2.Sieve flour and baking powder in a bowl.\n\n3.Beat the eggs.\n\n4.Add the sugar to the eggs and beat it properly until it becomes smooth.\n\n5.Add oil and then beat it again until smooth.\n\n6.Add the vanilla essence\n\n7.
+Add the flour mixture to the batter and beat it lightly(do not use an electrical beater while beating the flour\n\n8.
+Pour the batter in the tin.\n\n9.
+Put the cake mixture into the oven for 1 hour.\n\n10.Take the cake out and serve.</string>
+    <string name="recipefries"><b>Ingredients</b>\n\n1.Potatoes\n2.Cooking Oil\n3.Salt\n4.Flour\n5.Garlic salt\n6.Onion salt or (regular) salt\n7.Paprika\n8.Tomato Sauce\n\n<b>HOW TO PREPARE:</b>\n\n1.Slice potatoes into French fries, and place into cold water (to prevent them from turning brown while you prepare the oil).\n\n2.Heat oil in a large skillet over medium high heat.\n3.Sift the flour, garlic salt, onion salt or (regular) salt, and paprika into a large bowl and add the fries.\n\n3.Fry until golden brown and crispy\n\n4.Spice the up with your favourite sauces </string>
+    <string name="reciperice"><b>Ingredients</b>\n\n1.Rice\n2.Water\n3.Salt\n4.Masala\n5.Garlic Powder\n6.Butter\n\n<b>HOW TO PREPARE:</b>\n\n1.Add 2 cups converted rice,salt,garlic powder and 4 cups of water and bring the to boil\n\n2.Reduce the heat to low and stir; cover and cook until tender for 20 minutes.\n\n3.Let it sit, covered for 5 minutes, then stir in 2 tablespoons of butter\n\n4.Season with salt </string>
+    <string name="recipeomlette"><b>Ingredients</b>\n\n1.Eggs \n 2.Cooking Oil/Butter \n 3.Onions\n 4.Pepper \n 5.Salt \n\n<b>HOW TO PREPARE:</b>\n\n1.BEAT eggs, water, salt and pepper in small bowl until blended\n\n2.
+HEAT butter in 6 to 8-inch nonstick omelet pan or skillet over medium-high heat until hot.\n\n3.GENTLY PUSH cooked portions from edges toward the center with inverted turner so that uncooked eggs can reach the hot pan surface.
+\n\n4.Serve when hot</string>
+    <string name="Author">victor kamau</string>
+    <string name="client">Becky</string>
+    <string name="donut">Donut</string>
+    <string name="add_recipe">Add Recipe</string>
+</resources>

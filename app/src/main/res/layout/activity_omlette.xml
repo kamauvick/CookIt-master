@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".OmletteActivity">
+
+    <TextView
+        android:id="@+id/txtone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:text="Omlette"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/viewblack"
+        android:layout_width="130dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/txtone"
+        android:layout_marginLeft="16dp"
+        android:background="#000000"
+        android:paddingLeft="8dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewblack"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/recipecard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="9"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:paddingTop="310dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/omlette" />
+
+                    <TextView
+                        android:id="@+id/reciperesult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="11dp"
+                        android:fontFamily="casual"
+                        android:text="@string/recipeomlette"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </ScrollView>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:elevation="15dp"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:background="#E4E9EF"
+        android:onClick="backButton"
+        android:layout_marginRight="8dp"
+        android:padding="2dp"
+        android:src="@drawable/back" />
+
+</RelativeLayout>
